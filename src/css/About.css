@@ -1,0 +1,117 @@
+/* benefits */
+#about-background {
+  width: 100%;
+}
+
+.about-container {
+  position: relative;
+}
+
+.benefits {
+  position: absolute;
+  display: flex;
+  top: -40px;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  width: 15vw;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+/* description */
+
+.desc-container {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  width: 1100px;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.desc {
+  width: 50%;
+}
+
+.benefit > h3 {
+  text-transform: uppercase;
+}
+.title-bg {
+  position: relative;
+}
+
+.title-bg > p {
+  position: absolute;
+  top: -6px;
+  left: 50px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+.ads {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.ad:nth-child(2) {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.ad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  text-transform: uppercase;
+}
+.ads > .ad > img {
+  width: 80px;
+}
+
+#about-btn {
+  background-color: black;
+  color: white;
+}
+
+#about-btn::after {
+  z-index: -1;
+  border: 2px solid black;
+}
+
+.banners > img {
+  position: absolute;
+  top: 0px;
+}
+
+#running_writing {
+  left: 50%;
+}
+
+#girl_running {
+  left: 50%;
+}
+
+#semicircle {
+  left: 70%;
+  z-index: -1;
+}
+
+#wind {
+  left: 80%;
+  top: 50%;
+}

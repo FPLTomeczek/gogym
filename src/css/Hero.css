@@ -1,0 +1,69 @@
+.hero-container {
+  position: relative;
+}
+
+.hero-background {
+  width: 100%;
+  filter: brightness(30%);
+}
+
+.title-bg-container {
+  position: relative;
+  color: white;
+}
+
+.title-bg-container p {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  z-index: 0;
+}
+
+.hero-text h1 {
+  text-transform: uppercase;
+  color: white;
+}
+.hero-text > h1 > span {
+  font-weight: 400;
+}
+
+.underline {
+  width: 50px;
+  height: 5px;
+  background-color: red;
+}
+
+.links {
+  display: flex;
+  position: absolute;
+  top: 37%;
+  right: 15%;
+  color: white;
+  flex-direction: row-reverse;
+  align-items: center;
+  transform: rotate(270deg);
+  gap: 1rem;
+}
+
+.links > i {
+  transform: rotate(90deg);
+}
+
+.links > p {
+  font-size: 1.5em;
+}
+
+.hero-trainer {
+  position: absolute;
+  bottom: 0px;
+}
