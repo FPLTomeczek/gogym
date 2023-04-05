@@ -1,0 +1,90 @@
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/about_bg.jpg");
+}
+
+.pricing-container > span {
+  color: var(--dark-gray);
+  font-size: 15px;
+  text-align: center;
+}
+
+#title-bg-pricing {
+  margin-top: 4rem;
+}
+
+.plans {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.plan-img {
+  position: relative;
+}
+
+.plan-img > h2 {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+  width: fit-content;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.plan {
+  background-color: white;
+  padding-bottom: 3rem;
+  position: relative;
+  z-index: 0;
+}
+
+.plan-structure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-transform: capitalize;
+  color: var(--dark-gray);
+}
+
+.plan-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan-pricing {
+  position: relative;
+  font-size: 3rem;
+}
+
+.plan-pricing::before {
+  content: "$";
+  position: absolute;
+  left: -20px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+
+.plan-pricing::after {
+  content: "p/m";
+  position: absolute;
+  bottom: 5px;
+  right: -55px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+.plan-info > button {
+  margin-top: 2rem;
+}
+
+.plan-info > button::after {
+  border: 2px solid var(--main-red);
+}
