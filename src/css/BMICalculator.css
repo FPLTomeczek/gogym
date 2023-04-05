@@ -1,0 +1,46 @@
+.bmi-container {
+  background-image: url("../img/calculate-bmi-bg.jpg");
+  background-size: cover;
+  /* height: 439px; */
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.bmi-calculator {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.bmi-calculator span {
+  color: var(--main-red);
+}
+
+.bmi-calculator > p {
+  color: var(--dark-gray);
+}
+
+.bmi-inputs input {
+  background-color: black;
+  color: var(--dark-gray);
+  padding: 1rem;
+  border: 1px solid var(--dark-gray);
+  box-sizing: border-box;
+  width: 260px;
+}
+
+.bmi-answers {
+  display: flex;
+}
+.bmi-answers > p {
+  width: 260px;
+}
+
+#height-input,
+#weight-answer {
+  margin-left: 2rem;
+}

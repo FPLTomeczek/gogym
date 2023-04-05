@@ -1,0 +1,87 @@
+.offers-container {
+  margin-top: 4rem;
+}
+
+.activities {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "one one two three"
+    "four five six six";
+  width: 100%;
+  gap: 1rem;
+}
+.activity {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.activity::before {
+  position: absolute;
+  left: 20px;
+  top: 20%;
+  color: black;
+  z-index: 2;
+  transform: scale(70%);
+}
+
+.activity::after {
+  position: absolute;
+  width: 130px;
+  top: 30px;
+  left: -40px;
+  height: 80px;
+  border-radius: 0 50px 50px 0;
+  transform: rotate(30deg);
+  z-index: 1;
+  background-color: gray;
+  content: "";
+}
+
+.activity:nth-child(1)::before {
+  content: url("../img/bike.png");
+}
+.activity:nth-child(2)::before {
+  content: url("../img/karate.png");
+}
+.activity:nth-child(3)::before {
+  content: url("../img/dumbbells_lifting.png");
+}
+.activity:nth-child(4)::before {
+  content: url("../img/meditation.png");
+}
+.activity:nth-child(5)::before {
+  content: url("../img/martial_arts.png");
+}
+.activity:nth-child(6)::before {
+  content: url("../img/ohp_small.png");
+}
+
+.activity > img {
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activity > h2 {
+  position: absolute;
+  left: 20px;
+  bottom: 50px;
+  color: white;
+}
+
+.activity > span {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  color: white;
+  background-color: #ff0034;
+  padding: 0.5rem;
+}
+
+#title-bg-offers > p {
+  left: 30px;
+}

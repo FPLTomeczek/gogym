@@ -54,11 +54,12 @@
 
 .title-bg > p {
   position: absolute;
-  top: -6px;
-  left: 50px;
+  top: -2px;
+  left: 55px;
   text-transform: uppercase;
   color: white;
   font-weight: 700;
+  font-size: 0.8rem;
 }
 
 .ads {
