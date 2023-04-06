@@ -5,6 +5,7 @@ import Offers from "../components/Offers";
 import Coaches from "../components/Coaches";
 import Testimonials from "../components/Testimonials";
 import BMICalculator from "../components/BMICalculator";
+import Pricing from "../components/Pricing";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Coaches />
       <Testimonials />
       <BMICalculator />
+      <Pricing />
     </div>
   );
 };

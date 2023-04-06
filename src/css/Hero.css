@@ -37,6 +37,10 @@
   font-weight: 400;
 }
 
+.hero-text > .btn > i {
+  color: var(--main-red);
+}
+
 .underline {
   width: 50px;
   height: 5px;
@@ -55,7 +59,13 @@
   gap: 1rem;
 }
 
+.links > i:hover {
+  color: var(--main-red);
+  cursor: pointer;
+}
+
 .links > i {
+  transition: color 0.5s;
   transform: rotate(90deg);
 }
 

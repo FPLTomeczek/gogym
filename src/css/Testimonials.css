@@ -2,6 +2,10 @@
   margin-top: 4rem;
 }
 
+#title-bg-testimonials {
+  left: 60px;
+}
+
 .quote-bg-container {
   margin-top: 8rem;
   background-color: black;
@@ -60,4 +64,11 @@
   border: none;
   padding: 0.75rem 1rem;
   margin: 0 0.25rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.quote-buttons > button:hover {
+  color: white;
+  background-color: var(--main-red);
 }

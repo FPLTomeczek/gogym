@@ -17,6 +17,15 @@
   margin-left: 10%;
 }
 
+.bmi-calculator > button {
+  padding: 1rem 0rem;
+  transition: all 0.4s;
+}
+.bmi-calculator > button:hover {
+  background-color: var(--main-red);
+  color: white;
+}
+
 .bmi-calculator span {
   color: var(--main-red);
 }

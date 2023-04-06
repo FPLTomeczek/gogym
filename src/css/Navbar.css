@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 1rem 4rem;
+  align-items: center;
+}
+
+.navbar > img {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  gap: 2rem;
+}
+
+li {
+  cursor: pointer;
+  transition: color 0.4s;
+}
+li:hover {
+  color: var(--main-red);
+}
+
+.sign-up {
+  display: flex;
+  color: white;
+  gap: 2rem;
+  align-items: center;
+}
+
+.sign-up > i {
+  font-size: 1.5rem;
+  transition: color 0.4s;
+  cursor: pointer;
+}
+
+.sign-up > i:hover {
+  color: var(--main-red);
+}
+
+.join-class {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.join-class > i {
+  font-size: 2rem;
+  color: var(--main-red);
+}

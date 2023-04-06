@@ -3,16 +3,17 @@
   flex-direction: column;
   align-items: center;
   background-image: url("../img/about_bg.jpg");
+  padding: 4rem 0;
+}
+
+#title-bg-pricing {
+  left: 55px;
 }
 
 .pricing-container > span {
   color: var(--dark-gray);
   font-size: 15px;
   text-align: center;
-}
-
-#title-bg-pricing {
-  margin-top: 4rem;
 }
 
 .plans {
@@ -23,6 +24,15 @@
 
 .plan-img {
   position: relative;
+  filter: grayscale(100%);
+  transition: 0.4s all;
+}
+
+.plan-img:hover {
+  filter: none;
+}
+.plan-img:hover > h2 {
+  color: var(--main-red);
 }
 
 .plan-img > h2 {
@@ -83,6 +93,8 @@
 }
 .plan-info > button {
   margin-top: 2rem;
+  background-color: var(--main-red);
+  color: white;
 }
 
 .plan-info > button::after {

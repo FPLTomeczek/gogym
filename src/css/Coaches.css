@@ -7,7 +7,7 @@
 }
 
 #title-bg-coaches {
-  left: 50px;
+  left: 55px;
 }
 
 .coaches {
@@ -43,6 +43,7 @@
   text-align: center;
   z-index: 3;
   padding: 1.25rem 0;
+  cursor: pointer;
 }
 
 .coach-info > h2 {
@@ -61,6 +62,10 @@
   left: 178px;
 }
 
+.coach-info:hover > .underline {
+  width: 100%;
+}
+
 .social-icons {
   display: flex;
   justify-content: center;
@@ -72,6 +77,7 @@
   margin: 0 auto;
   position: absolute;
   bottom: 0;
+  transition: all 0.4s;
 }
 .coach-bg {
   position: absolute;

@@ -10,7 +10,7 @@ const Testimonials = () => {
       <main>
         <div className="title-bg-container">
           <img src={titleBg} alt="bg" />
-          <p>testimonials</p>
+          <p id="title-bg-testimonials">testimonials</p>
         </div>
         <div className="quote-bg-container">
           <div className="testimonial-img-bg"></div>

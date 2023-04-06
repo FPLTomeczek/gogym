@@ -8,9 +8,9 @@ import plan3 from "../img/plan3.jpg";
 const Pricing = () => {
   return (
     <div className="pricing-container">
-      <div className="title-bg-container" id="title-bg-pricing">
+      <div className="title-bg-container">
         <img src={titleBg} alt="bg" />
-        <p>pricing chart</p>
+        <p id="title-bg-pricing">pricing chart</p>
       </div>
       <h2>Exclusive Pricing Plan</h2>
       <span>
