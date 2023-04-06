@@ -1,3 +1,10 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-page > section {
+  padding: 4rem 0;
+  display: flex;
   width: 80vw;
 }

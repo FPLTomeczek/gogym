@@ -1,0 +1,10 @@
+.contact-form-container {
+  background-color: var(--light-gray);
+  padding: 2rem;
+}
+
+.contact-form-container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

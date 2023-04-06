@@ -1,0 +1,27 @@
+.contact-info-container {
+  width: 50%;
+}
+
+.contact-info-container span {
+  color: var(--dark-gray);
+}
+
+.contact-infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 2rem 0;
+}
+
+.contact-info > .footer-links > i {
+  font-size: 0.8rem;
+}
+
+.contact-info > h3 {
+  margin: 0;
+}
+
+.contact-info > .underline {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
