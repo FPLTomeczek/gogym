@@ -14,10 +14,10 @@ const Footer = () => {
               program designed to help you reach your fitness goals.
             </p>
             <div className="footer-links">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-pinterest"></i>
-              <i class="fa-brands fa-youtube"></i>
+              <i className="fa-brands fa-facebook"></i>
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-pinterest"></i>
+              <i className="fa-brands fa-youtube"></i>
             </div>
             <span>
               Privacy Policy | &copy; 2023 Gymate Design by FPLTomeczek

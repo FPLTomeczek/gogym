@@ -47,41 +47,41 @@
 }
 
 .activity:nth-child(1)::before {
-  content: url("../img/bike.png");
+  content: url("../../img/bike.png");
 }
 .activity:nth-child(2)::before {
-  content: url("../img/karate.png");
+  content: url("../../img/karate.png");
 }
 .activity:nth-child(3)::before {
-  content: url("../img/dumbbells_lifting.png");
+  content: url("../../img/dumbbells_lifting.png");
 }
 .activity:nth-child(4)::before {
-  content: url("../img/meditation.png");
+  content: url("../../img/meditation.png");
 }
 .activity:nth-child(5)::before {
-  content: url("../img/martial_arts.png");
+  content: url("../../img/martial_arts.png");
 }
 .activity:nth-child(6)::before {
-  content: url("../img/ohp_small.png");
+  content: url("../../img/ohp_small.png");
 }
 
 .activity:hover:nth-child(1)::before {
-  content: url("../img/bike_red.png");
+  content: url("../../img/bike_red.png");
 }
 .activity:hover:nth-child(2)::before {
-  content: url("../img/karate_red.png");
+  content: url("../../img/karate_red.png");
 }
 .activity:hover:nth-child(3)::before {
-  content: url("../img/dumbbells_lifting_red.png");
+  content: url("../../img/dumbbells_lifting_red.png");
 }
 .activity:hover:nth-child(4)::before {
-  content: url("../img/meditation_red.png");
+  content: url("../../img/meditation_red.png");
 }
 .activity:hover:nth-child(5)::before {
-  content: url("../img/martial_arts_red.png");
+  content: url("../../img/martial_arts_red.png");
 }
 .activity:hover:nth-child(6)::before {
-  content: url("../img/ohp_small_red.png");
+  content: url("../../img/ohp_small_red.png");
 }
 
 .activity > img {

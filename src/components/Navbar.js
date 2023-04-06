@@ -1,21 +1,32 @@
 import React from "react";
 import logo_navbar from "../img/logo_navbar.svg";
 import "../css/Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={logo_navbar} alt="logo_navbar" />
+      <Link to="/">
+        <img src={logo_navbar} alt="logo_navbar" />
+      </Link>
       <ul>
-        <li>Home</li>
-        <li>Schedule</li>
-        <li>Classes</li>
-        <li>Contact</li>
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="/schedule">
+          <li>Schedule</li>
+        </Link>
+        <Link to="/classes">
+          <li>Classes</li>
+        </Link>
+        <Link to="/contact">
+          <li>Contact</li>
+        </Link>
       </ul>
       <div className="sign-up">
-        <i class="fa-regular fa-user"></i>
+        <i className="fa-regular fa-user"></i>
         <div className="join-class">
-          <i class="fa-solid fa-square-plus"></i>
+          <i className="fa-solid fa-square-plus"></i>
           <span>Join class now</span>
         </div>
       </div>

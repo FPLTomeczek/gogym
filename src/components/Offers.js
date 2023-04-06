@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Offers.css";
+import "../css/HomePage/Offers.css";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
 import activity1 from "../img/activity1.jpg";
 import activity2 from "../img/activity2.jpg";

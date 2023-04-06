@@ -1,6 +1,6 @@
 import React from "react";
 import aboutBg from "../img/about_bg.jpg";
-import "../css/About.css";
+import "../css/HomePage/About.css";
 import time from "../img/time.png";
 import lifting from "../img/lifting.png";
 import plan from "../img/plan.png";
@@ -70,7 +70,7 @@ const About = () => {
           </div>
           <button className="btn" id="about-btn">
             <p>take a tour</p>
-            <i className="fa-solid fa-arrow-right"></i>
+            <i classNameName="fa-solid fa-arrow-right"></i>
           </button>
         </section>
         <section className="banners">

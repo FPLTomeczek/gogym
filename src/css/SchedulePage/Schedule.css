@@ -1,0 +1,66 @@
+.schedule-container {
+  padding: 4rem 0;
+}
+
+.schedule-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.schedule-buttons > button {
+  border: none;
+  border: 1px solid var(--dark-gray);
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 32px;
+  box-sizing: border-box;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.schedule-buttons > button:hover {
+  background-color: var(--main-red);
+  color: white;
+}
+.sessions {
+  margin-top: 2rem;
+  width: 100%;
+}
+.session {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  width: 100%;
+  background-color: var(--light-gray);
+  text-transform: capitalize;
+}
+
+.session > div {
+  min-width: 250px;
+}
+
+.join-btn {
+  border: none;
+  background-color: black;
+  color: white;
+  height: fit-content;
+  padding: 1rem 2rem;
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.4s;
+}
+
+.join-btn:hover {
+  background-color: var(--main-red);
+}
+
+.schedule-buttons > .active {
+  background-color: var(--main-red);
+  color: white;
+}

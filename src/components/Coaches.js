@@ -4,7 +4,7 @@ import trainer2 from "../img/trainer2.png";
 import trainer3 from "../img/trainer3.png";
 import trainerbg from "../img/trainer_bg.png";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
-import "../css/Coaches.css";
+import "../css/HomePage/Coaches.css";
 import oval_shape from "../img/oval_shape.png";
 
 const Coaches = () => {
@@ -26,13 +26,13 @@ const Coaches = () => {
             <img src={trainerbg} alt="bg" className="coach-bg" />
             <div className="coach-info">
               <img src={oval_shape} alt="oval_shape" />
-              <i class="fa-solid fa-chevron-up"></i>
+              <i className="fa-solid fa-chevron-up"></i>
               <h2>John Lewis</h2>
               <span>Yoga Trainer</span>
               <div className="social-icons">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-facebook"></i>
               </div>
               <div className="underline" id="underline-coach"></div>
             </div>
@@ -42,13 +42,13 @@ const Coaches = () => {
             <img src={trainerbg} alt="bg" className="coach-bg" />
             <div className="coach-info">
               <img src={oval_shape} alt="oval_shape" />
-              <i class="fa-solid fa-chevron-up"></i>
+              <i className="fa-solid fa-chevron-up"></i>
               <h2>Johnatan Doe</h2>
               <span>Crossfit Trainer</span>
               <div className="social-icons">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-facebook"></i>
               </div>
               <div className="underline" id="underline-coach"></div>
             </div>
@@ -58,13 +58,13 @@ const Coaches = () => {
             <img src={trainerbg} alt="bg" className="coach-bg" />
             <div className="coach-info">
               <img src={oval_shape} alt="oval_shape" />
-              <i class="fa-solid fa-chevron-up"></i>
+              <i className="fa-solid fa-chevron-up"></i>
               <h2>Ana June</h2>
               <span>Personal Trainer</span>
               <div className="social-icons">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-facebook"></i>
               </div>
               <div className="underline" id="underline-coach"></div>
             </div>

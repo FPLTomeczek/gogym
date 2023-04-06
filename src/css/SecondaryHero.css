@@ -1,0 +1,10 @@
+.secondary-hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("../img/hero_bg.jpg");
+  height: 400px;
+}
+.secondary-hero > h2 {
+  color: white;
+}

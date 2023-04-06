@@ -2,7 +2,7 @@ import React from "react";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
 import quote from "../img/quote.png";
 import testimonial from "../img/testimonial.jpg";
-import "../css/Testimonials.css";
+import "../css/HomePage/Testimonials.css";
 
 const Testimonials = () => {
   return (
@@ -27,10 +27,10 @@ const Testimonials = () => {
             <span>Director of CCC</span>
             <div className="quote-buttons">
               <button>
-                <i class="fa-solid fa-chevron-left"></i>
+                <i className="fa-solid fa-chevron-left"></i>
               </button>
               <button>
-                <i class="fa-solid fa-chevron-right"></i>
+                <i className="fa-solid fa-chevron-right"></i>
               </button>
             </div>
           </div>

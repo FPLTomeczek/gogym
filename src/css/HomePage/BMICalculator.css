@@ -1,7 +1,6 @@
 .bmi-container {
-  background-image: url("../img/calculate-bmi-bg.jpg");
+  background-image: url("../../img/calculate-bmi-bg.jpg");
   background-size: cover;
-  /* height: 439px; */
   display: flex;
   align-items: center;
   padding: 2rem 0;
