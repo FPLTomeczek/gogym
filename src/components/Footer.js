@@ -1,6 +1,7 @@
 import React from "react";
 import logo_footer from "../img/logo_footer.svg";
 import "../css/Footer.css";
+import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
   return (
@@ -13,12 +14,7 @@ const Footer = () => {
               Take your health and body to the next level with our comprehensive
               program designed to help you reach your fitness goals.
             </p>
-            <div className="footer-links">
-              <i className="fa-brands fa-facebook"></i>
-              <i className="fa-brands fa-twitter"></i>
-              <i className="fa-brands fa-pinterest"></i>
-              <i className="fa-brands fa-youtube"></i>
-            </div>
+            <SocialLinks />
             <span>
               Privacy Policy | &copy; 2023 Gymate Design by FPLTomeczek
             </span>
@@ -26,7 +22,7 @@ const Footer = () => {
           <div className="our-classes">
             <h3>Our Classes</h3>
             <div className="underline"></div>
-            <div className="classes">
+            <div className="classes-footer">
               <span>Fitness Classes</span>
               <span>Aerobics Classes</span>
               <span>Power Yoga</span>

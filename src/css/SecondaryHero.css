@@ -7,4 +7,5 @@
 }
 .secondary-hero > h2 {
   color: white;
+  text-transform: capitalize;
 }

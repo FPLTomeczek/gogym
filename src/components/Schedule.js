@@ -5,61 +5,58 @@ import { schedule } from "../data.js";
 const Schedule = () => {
   const [activeDay, setActiveDay] = useState("monday");
 
-  console.log(schedule);
-
-  console.log(schedule[activeDay]);
   return (
     <div className="schedule-container">
       <main>
         <div className="schedule-buttons">
           <button
             onClick={() => setActiveDay("monday")}
-            className={activeDay === "monday" && "active"}
+            className={activeDay === "monday" ? "active" : null}
           >
             Monday
           </button>
           <button
             onClick={() => setActiveDay("tuesday")}
-            className={activeDay === "tuesday" && "active"}
+            className={activeDay === "tuesday" ? "active" : null}
           >
             Tuesday
           </button>
           <button
             onClick={() => setActiveDay("wednesday")}
-            className={activeDay === "wednesday" && "active"}
+            className={activeDay === "wednesday" ? "active" : null}
           >
             Wednesday
           </button>
           <button
             onClick={() => setActiveDay("thursday")}
-            className={activeDay === "thursday" && "active"}
+            className={activeDay === "thursday" ? "active" : null}
           >
             Thursday
           </button>
           <button
             onClick={() => setActiveDay("friday")}
-            className={activeDay === "friday" && "active"}
+            className={activeDay === "friday" ? "active" : null}
           >
             Friday
           </button>
           <button
             onClick={() => setActiveDay("saturday")}
-            className={activeDay === "saturday" && "active"}
+            className={activeDay === "saturday" ? "active" : null}
           >
             Saturday
           </button>
           <button
             onClick={() => setActiveDay("sunday")}
-            className={activeDay === "sunday" && "active"}
+            className={activeDay === "sunday" ? "active" : null}
           >
             Sunday
           </button>
         </div>
         <div className="sessions">
-          {schedule[activeDay].map((session) => {
+          {schedule[activeDay].map((session, index) => {
             const { name, time, trainer } = session;
             return (
-              <div className="session">
+              <div className="session" key={index}>
                 <div className="name">
                   <span>Class Name</span>
                   <h3>{name}</h3>

@@ -47,7 +47,7 @@
   flex-direction: column;
 }
 
-.classes {
+.classes-footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -55,7 +55,7 @@
   color: var(--dark-gray);
 }
 
-.classes > span:hover {
+.classes-footer > span:hover {
   color: var(--main-red);
   cursor: pointer;
   font-weight: bold;
