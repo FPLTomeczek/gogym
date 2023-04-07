@@ -1,12 +1,12 @@
 import React from "react";
 import "../css/HomePage/Offers.css";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
-import activity1 from "../img/activity1.jpg";
-import activity2 from "../img/activity2.jpg";
-import activity3 from "../img/activity3.jpg";
-import activity4 from "../img/activity4.jpg";
-import activity5 from "../img/activity5.jpg";
-import activity6 from "../img/activity6.jpg";
+import activity1 from "../img/HomePage/Offers/activity1.jpg";
+import activity2 from "../img/HomePage/Offers/activity2.jpg";
+import activity3 from "../img/HomePage/Offers/activity3.jpg";
+import activity4 from "../img/HomePage/Offers/activity4.jpg";
+import activity5 from "../img/HomePage/Offers/activity5.jpg";
+import activity6 from "../img/HomePage/Offers/activity6.jpg";
 
 const Offers = () => {
   return (

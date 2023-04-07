@@ -1,17 +1,17 @@
 import React from "react";
 import aboutBg from "../img/about_bg.jpg";
 import "../css/HomePage/About.css";
-import time from "../img/time.png";
-import lifting from "../img/lifting.png";
-import plan from "../img/plan.png";
+import time from "../img/HomePage/About/time.png";
+import lifting from "../img/HomePage/About/lifting.png";
+import plan from "../img/HomePage/About/plan.png";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
-import ohp from "../img/ohp.png";
-import equipment from "../img/equipment.png";
-import machines from "../img/machines.png";
-import running_writing from "../img/running_writing.png";
-import girl_running from "../img/girl_running.png";
-import semicircle from "../img/semicircle.svg";
-import wind from "../img/wind.png";
+import ohp from "../img/HomePage/About/ohp.png";
+import equipment from "../img/HomePage/About/equipment.png";
+import machines from "../img/HomePage/About/machines.png";
+import running_writing from "../img/HomePage/About/running_writing.png";
+import girl_running from "../img/HomePage/About/girl_running.png";
+import semicircle from "../img/HomePage/About/semicircle.svg";
+import wind from "../img/HomePage/About/wind.png";
 
 const About = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import bg from "../img/bg.jpg";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
-import heroTrainer from "../img/hero_trainer.png";
+import heroTrainer from "../img/HomePage/Hero/hero_trainer.png";
 import "../css/HomePage/Hero.css";
 
 const Hero = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
-import quote from "../img/quote.png";
-import testimonial from "../img/testimonial.jpg";
+import quote from "../img/HomePage/Testimonials/quote.png";
+import testimonial from "../img/HomePage/Testimonials/testimonial.jpg";
 import "../css/HomePage/Testimonials.css";
 
 const Testimonials = () => {

@@ -1,11 +1,11 @@
 import React from "react";
-import trainer1 from "../img/trainer1.png";
-import trainer2 from "../img/trainer2.png";
-import trainer3 from "../img/trainer3.png";
-import trainerbg from "../img/trainer_bg.png";
+import trainer1 from "../img/HomePage/Coaches/trainer1.png";
+import trainer2 from "../img/HomePage/Coaches/trainer2.png";
+import trainer3 from "../img/HomePage/Coaches/trainer3.png";
+import trainerbg from "../img/HomePage/Coaches/trainer_bg.png";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
 import "../css/HomePage/Coaches.css";
-import oval_shape from "../img/oval_shape.png";
+import oval_shape from "../img/HomePage/Coaches/oval_shape.png";
 
 const Coaches = () => {
   return (

@@ -1,15 +1,15 @@
-import body_building from "./img/classes/body_building.jpg";
-import boxing from "./img/classes/boxing.jpg";
-import crossfit from "./img/classes/crossfit.jpg";
-import fat_burn from "./img/classes/fat_burn.jpg";
-import fitness from "./img/classes/fitness.jpg";
-import meditation from "./img/classes/meditation.jpg";
-import mma from "./img/classes/mma.jpg";
-import orbitrek from "./img/classes/orbitrek.jpg";
-import power_lifting from "./img/classes/power_lifting.jpg";
-import running from "./img/classes/running.jpg";
-import workout from "./img/classes/workout.jpg";
-import yoga from "./img/classes/yoga.jpg";
+import body_building from "./img/ClassesPage/body_building.jpg";
+import boxing from "./img/ClassesPage/boxing.jpg";
+import crossfit from "./img/ClassesPage/crossfit.jpg";
+import fat_burn from "./img/ClassesPage/fat_burn.jpg";
+import fitness from "./img/ClassesPage/fitness.jpg";
+import meditation from "./img/ClassesPage/meditation.jpg";
+import mma from "./img/ClassesPage/mma.jpg";
+import orbitrek from "./img/ClassesPage/orbitrek.jpg";
+import power_lifting from "./img/ClassesPage/power_lifting.jpg";
+import running from "./img/ClassesPage/running.jpg";
+import workout from "./img/ClassesPage/workout.jpg";
+import yoga from "./img/ClassesPage/yoga.jpg";
 
 export const posts = [
   {

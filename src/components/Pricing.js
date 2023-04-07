@@ -1,9 +1,9 @@
 import React from "react";
 import titleBg from "../img/titlebg.13d788348b56c629eefb2e7ad1f4d6ce.svg";
 import "../css/HomePage/Pricing.css";
-import plan1 from "../img/plan1.jpg";
-import plan2 from "../img/plan2.jpg";
-import plan3 from "../img/plan3.jpg";
+import plan1 from "../img/HomePage/Pricing/plan1.jpg";
+import plan2 from "../img/HomePage/Pricing/plan2.jpg";
+import plan3 from "../img/HomePage/Pricing/plan3.jpg";
 
 const Pricing = () => {
   return (
