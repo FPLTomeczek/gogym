@@ -1,10 +1,36 @@
 .contact-form-container {
   background-color: var(--light-gray);
   padding: 2rem;
+  width: 50%;
+}
+
+.contact-form-container > h2 {
+  margin-bottom: 0.25rem;
 }
 
 .contact-form-container > form {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.contact-form-container > form > input,
+.contact-form-container > form > select,
+#contact-textarea {
+  padding: 1rem 1rem;
+}
+
+#contact-textarea {
+  resize: vertical;
+}
+
+#contact-btn {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s;
+}
+
+#contact-btn:hover {
+  background-color: var(--main-red);
 }

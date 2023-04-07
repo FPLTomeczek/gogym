@@ -1,10 +1,12 @@
-.contact-page {
+.contact-container {
   display: flex;
   justify-content: center;
 }
 
-.contact-page > section {
+.contact-container > section {
   padding: 4rem 0;
   display: flex;
-  width: 80vw;
+  align-items: center;
+  gap: 2rem;
+  width: 70vw;
 }

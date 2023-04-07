@@ -7,8 +7,8 @@ const ContactForm = () => {
       <h2>Leave Us Your Info</h2>
       <div className="underline"></div>
       <form>
-        <input type="text" />
-        <input type="email" />
+        <input type="text" placeholder="Full Name *" />
+        <input type="email" placeholder="Email Address*" />
         <select name="" id="">
           <option>Body Building</option>
           <option>Boxing</option>
@@ -20,7 +20,15 @@ const ContactForm = () => {
           <option>Meditation</option>
           <option>Cycling</option>
         </select>
-        <button className="btn">submit now</button>
+        <textarea
+          placeholder="Comment"
+          id="contact-textarea"
+          rows="8"
+        ></textarea>
+        <button className="btn" id="contact-btn">
+          <p>submit now</p>
+          <i className="fa-solid fa-arrow-right"></i>
+        </button>
       </form>
     </div>
   );

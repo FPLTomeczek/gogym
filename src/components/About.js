@@ -70,7 +70,7 @@ const About = () => {
           </div>
           <button className="btn" id="about-btn">
             <p>take a tour</p>
-            <i classNameName="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </button>
         </section>
         <section className="banners">

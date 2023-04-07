@@ -2,6 +2,9 @@
   width: 50%;
 }
 
+.contact-info-container > h1 {
+  font-size: 2.5rem;
+}
 .contact-info-container span {
   color: var(--dark-gray);
 }

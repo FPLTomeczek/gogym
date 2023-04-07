@@ -19,7 +19,7 @@ const Hero = () => {
         </h1>
         <button className="btn">
           <p>our classes</p>
-          <i classNameName="fa-solid fa-arrow-right"></i>
+          <i className="fa-solid fa-arrow-right"></i>
         </button>
       </div>
       <div className="links">

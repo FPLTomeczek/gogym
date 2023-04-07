@@ -34,7 +34,7 @@ const Pricing = () => {
             </div>
             <button className="btn">
               <p>purchase now</p>
-              <i classNameName="fa-solid fa-arrow-right" />
+              <i className="fa-solid fa-arrow-right" />
             </button>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Pricing = () => {
             </div>
             <button className="btn">
               <p>purchase now</p>
-              <i classNameName="fa-solid fa-arrow-right" />
+              <i className="fa-solid fa-arrow-right" />
             </button>
           </div>
         </div>
@@ -76,7 +76,7 @@ const Pricing = () => {
             </div>
             <button className="btn">
               <p>purchase now</p>
-              <i classNameName="fa-solid fa-arrow-right" />
+              <i className="fa-solid fa-arrow-right" />
             </button>
           </div>
         </div>
