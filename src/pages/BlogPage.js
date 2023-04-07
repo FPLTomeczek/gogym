@@ -20,6 +20,7 @@ const BlogPage = () => {
             {Array.from({ length: numOfPages }, (x, i) => {
               return (
                 <div
+                  key={i}
                   className={`page-button ${page === i + 1 ? "active" : ""}`}
                   onClick={() => setPage(i + 1)}
                 >

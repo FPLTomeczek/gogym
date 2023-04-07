@@ -1,5 +1,5 @@
 import React from "react";
-import logo_footer from "../img/logo_footer.svg";
+import logo_black from "../img/logo_black.svg";
 import "../css/Footer.css";
 import SocialLinks from "./SocialLinks";
 
@@ -9,7 +9,7 @@ const Footer = () => {
       <main>
         <div className="footer-container">
           <div className="footer-desc">
-            <img src={logo_footer} alt="logo_footer" />
+            <img src={logo_black} alt="logo_black" />
             <p>
               Take your health and body to the next level with our comprehensive
               program designed to help you reach your fitness goals.

@@ -1,13 +1,22 @@
-import React from "react";
-import logo_navbar from "../img/logo_navbar.svg";
+import React, { useEffect, useState } from "react";
+import logo_white from "../img/logo_white.svg";
 import "../css/Navbar.css";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ isModalOpen, setIsModalOpen }) => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => setScrollY(window.scrollY));
+    return window.removeEventListener("scroll", () =>
+      setScrollY(window.scrollY)
+    );
+  }, []);
+
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrollY === 0 ? "" : "bg-transparent"}`}>
       <Link to="/">
-        <img src={logo_navbar} alt="logo_navbar" />
+        <img src={logo_white} alt="logo_white" />
       </Link>
       <ul>
         <Link to="/">
@@ -28,6 +37,10 @@ const Navbar = () => {
       </ul>
       <div className="sign-up">
         <i className="fa-regular fa-user"></i>
+        <i
+          class="fa-solid fa-bars"
+          onClick={() => setIsModalOpen(!isModalOpen)}
+        ></i>
         <div className="join-class">
           <i className="fa-solid fa-square-plus"></i>
           <span>Join class now</span>
