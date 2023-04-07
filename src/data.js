@@ -11,6 +11,73 @@ import running from "./img/classes/running.jpg";
 import workout from "./img/classes/workout.jpg";
 import yoga from "./img/classes/yoga.jpg";
 
+export const posts = [
+  {
+    img: yoga,
+    author: "Admin",
+    date: "March 11, 2022",
+    category: "Yoga",
+    title: "Yoga For Everyone in 2022",
+    text: "Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.",
+  },
+  {
+    img: crossfit,
+    author: "Admin",
+    date: "March 11, 2022",
+    category: "Yoga",
+    title: "Getting Back Into CrossFit After Vacation",
+    text: "Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.",
+  },
+  {
+    img: fitness,
+    author: "Admin",
+    date: "March 11, 2022",
+    category: "Yoga",
+    title: "Meet Fitness Ambassador Grace",
+    text: "Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.",
+  },
+  {
+    img: meditation,
+    author: "Admin",
+    date: "March 11, 2022",
+    category: "Yoga",
+    title: "The Best are European Materls Direct",
+    text: "Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.",
+  },
+  {
+    img: boxing,
+    author: "Admin",
+    date: "March 11, 2022",
+    category: "Yoga",
+    title: "Yoga For Everyone in 2022",
+    text: "Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.",
+  },
+  {
+    img: mma,
+    author: "Admin",
+    date: "March 11, 2022",
+    category: "Yoga",
+    title: "Give your Fitness a Boost with our Gym",
+    text: "Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.",
+  },
+  {
+    img: power_lifting,
+    author: "Admin",
+    date: "March 11, 2022",
+    category: "Yoga",
+    title: "How to Get Fit Your Kids Moving Throughout The Summer",
+    text: "Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.",
+  },
+  {
+    img: running,
+    author: "Admin",
+    date: "March 11, 2022",
+    category: "Yoga",
+    title: "Give your fitness a boost with our new gym challenge",
+    text: "Authoritatively disseminate multimedia based total linkage through market-driven methodolContinually transform integrated results vis-a-vis multidisciplinary manufacture Appropriately foster fullresearched innovation rather than backend supply. when an unknown printer took a galley.",
+  },
+];
+
 export const classes = [
   {
     img: orbitrek,

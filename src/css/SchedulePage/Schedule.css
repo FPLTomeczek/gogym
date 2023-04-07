@@ -59,8 +59,3 @@
 .join-btn:hover {
   background-color: var(--main-red);
 }
-
-.schedule-buttons > .active {
-  background-color: var(--main-red);
-  color: white;
-}

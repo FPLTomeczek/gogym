@@ -1,0 +1,40 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
+}
+
+.post i {
+  color: var(--main-red);
+}
+
+.post h2 {
+  margin-bottom: 0.5rem;
+}
+
+.post > img {
+  height: 500px;
+  object-fit: cover;
+}
+.post-info > p {
+  color: var(--dark-gray);
+}
+
+.post-info {
+  padding-top: 2rem;
+  position: relative;
+  z-index: 1;
+}
+#post-btn {
+  margin-top: 1rem;
+  background-color: var(--main-red);
+  color: white;
+  position: absolute;
+  height: fit-content;
+}
+#post-btn > i {
+  color: white;
+}
+#post-btn::after {
+  border-color: var(--main-red);
+}

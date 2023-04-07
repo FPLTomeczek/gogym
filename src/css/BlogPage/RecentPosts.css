@@ -1,0 +1,27 @@
+.recent-post {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.recent-post > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.recent-post-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.recent-post-info > h4 {
+  margin: 0;
+  cursor: pointer;
+  transition: color 0.4s;
+}
+
+.recent-post-info > h4:hover {
+  color: var(--main-red);
+}

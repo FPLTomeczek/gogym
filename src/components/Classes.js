@@ -17,7 +17,6 @@ const Classes = () => {
         <div className="classes">
           {shownClasses.map((elem, index) => {
             const { img, trainer, title, time } = elem;
-            console.log(img);
             return (
               <div className="class" key={index}>
                 <img src={img} alt="activity" />
