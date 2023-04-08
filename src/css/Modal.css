@@ -19,6 +19,7 @@
 .modal {
   position: fixed;
   z-index: 20;
+  left: -400px;
   top: 0;
   background-color: white;
   width: 400px;
@@ -27,7 +28,9 @@
   overflow-y: scroll;
   max-height: 100vh;
 }
-
+.offscreen {
+  left: -400px;
+}
 .slideIn {
   animation: slidein 1s forwards;
 }

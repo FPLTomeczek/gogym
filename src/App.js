@@ -9,13 +9,24 @@ import Modal from "./components/Modal";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalClosing, setIsModalClosing] = useState(false);
 
   return (
     <div className="App">
       <Router>
-        <Navbar isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
-        <Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+        <Navbar
+          isModalOpen={isModalOpen}
+          setIsModalOpen={setIsModalOpen}
+          isModalClosing={isModalClosing}
+          setIsModalClosing={setIsModalClosing}
+        />
+        <Modal
+          isModalOpen={isModalOpen}
+          setIsModalOpen={setIsModalOpen}
+          isModalClosing={isModalClosing}
+          setIsModalClosing={setIsModalClosing}
+        />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/classes" element={<ClassesPage />} />

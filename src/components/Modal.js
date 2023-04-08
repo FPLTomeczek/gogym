@@ -9,14 +9,26 @@ import activity5 from "../img/Modal/activity5.jpg";
 import activity6 from "../img/Modal/activity6.jpg";
 import SocialLinks from "./SocialLinks";
 
-const Modal = ({ isModalOpen, setIsModalOpen }) => {
+const Modal = ({
+  isModalOpen,
+  setIsModalOpen,
+  isModalClosing,
+  setIsModalClosing,
+}) => {
   return (
-    <div className={`modal ${isModalOpen ? "slideIn" : "slideOut"}`}>
+    <div
+      className={`modal ${isModalOpen ? "slideIn" : ""} ${
+        isModalClosing ? "slideOut" : ""
+      }`}
+    >
       <div className="modal-header">
         <img src={logo} alt="logo" />
         <i
           className="fa-solid fa-xmark"
-          onClick={() => setIsModalOpen(false)}
+          onClick={() => {
+            setIsModalOpen(false);
+            setIsModalClosing(true);
+          }}
         ></i>
       </div>
       <div className="modal-about">

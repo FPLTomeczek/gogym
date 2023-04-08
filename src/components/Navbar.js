@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from "react";
 import logo_white from "../img/logo_white.svg";
 import "../css/Navbar.css";
-import { Link } from "react-router-dom";
-
-const Navbar = ({ isModalOpen, setIsModalOpen }) => {
+import Link from "./Link.js";
+const Navbar = ({
+  isModalOpen,
+  setIsModalOpen,
+  isModalClosing,
+  setIsModalClosing,
+}) => {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
@@ -39,7 +43,14 @@ const Navbar = ({ isModalOpen, setIsModalOpen }) => {
         <i className="fa-regular fa-user"></i>
         <i
           class="fa-solid fa-bars"
-          onClick={() => setIsModalOpen(!isModalOpen)}
+          onClick={() => {
+            if (isModalOpen) {
+              setIsModalClosing(true);
+            } else {
+              setIsModalClosing(false);
+            }
+            setIsModalOpen(!isModalOpen);
+          }}
         ></i>
         <div className="join-class">
           <i className="fa-solid fa-square-plus"></i>
