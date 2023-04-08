@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
-        {isModalOpen ? <Modal setIsModalOpen={setIsModalOpen} /> : null}
+        <Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/classes" element={<ClassesPage />} />

@@ -7,13 +7,17 @@ import activity3 from "../img/Modal/activity3.jpg";
 import activity4 from "../img/Modal/activity4.jpg";
 import activity5 from "../img/Modal/activity5.jpg";
 import activity6 from "../img/Modal/activity6.jpg";
+import SocialLinks from "./SocialLinks";
 
-const Modal = ({ setIsModalOpen }) => {
+const Modal = ({ isModalOpen, setIsModalOpen }) => {
   return (
-    <div className="modal">
+    <div className={`modal ${isModalOpen ? "slideIn" : "slideOut"}`}>
       <div className="modal-header">
         <img src={logo} alt="logo" />
-        <i className="fa-solid fa-xmark"></i>
+        <i
+          className="fa-solid fa-xmark"
+          onClick={() => setIsModalOpen(false)}
+        ></i>
       </div>
       <div className="modal-about">
         <h3>About Us</h3>
@@ -47,6 +51,10 @@ const Modal = ({ setIsModalOpen }) => {
         <span>
           <i className="fa-solid fa-envelope"></i>&nbsp;gymate@gymail.com
         </span>
+      </div>
+      <div className="modal-follow">
+        <h3>Follow Us</h3>
+        <SocialLinks />
       </div>
     </div>
   );
