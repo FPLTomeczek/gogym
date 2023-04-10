@@ -1,7 +1,6 @@
 import { Link as ReactLink } from "react-router-dom";
 
 export default function Link(props) {
-  console.log(props);
   function handleClick() {
     if (props.children.type === "img") {
       window.scrollTo({

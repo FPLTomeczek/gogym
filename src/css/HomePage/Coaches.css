@@ -12,9 +12,15 @@
 
 .coaches {
   display: flex;
-  width: 1200px;
+  width: 100%;
   justify-content: space-between;
   gap: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .coaches {
+    flex-direction: column;
+  }
 }
 
 .coach {

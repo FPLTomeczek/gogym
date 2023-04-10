@@ -1,5 +1,4 @@
-import React from "react";
-import aboutBg from "../img/about_bg.jpg";
+import React, { useEffect } from "react";
 import "../css/HomePage/About.css";
 import time from "../img/HomePage/About/time.png";
 import lifting from "../img/HomePage/About/lifting.png";
@@ -14,34 +13,49 @@ import semicircle from "../img/HomePage/About/semicircle.svg";
 import wind from "../img/HomePage/About/wind.png";
 
 const About = () => {
+  const setContainersHeight = () => {
+    document.getElementById("benefits-container").style.height = `${
+      document.getElementById("benefits").offsetHeight
+    }px`;
+
+    document.getElementById("banners").style.height = `${
+      document.getElementById("semicircle").offsetHeight
+    }px`;
+  };
+
+  useEffect(() => {
+    setContainersHeight();
+  }, []);
+
   return (
     <div className="about-container">
-      <img src={aboutBg} alt="background" id="about-background"></img>
-      <div className="benefits">
-        <article className="benefit">
-          <img src={time} alt="progression"></img>
-          <h3>Progression</h3>
-          <p>
-            Our team of experts will work with you to create a customized plan
-            that helps you achieve success one step at a time.
-          </p>
-        </article>
-        <article className="benefit">
-          <img src={lifting} alt="workout"></img>
-          <h3>Workout</h3>
-          <p>
-            With a variety of workouts to choose from, you'll have everything
-            you need to get into the best shape of your life.
-          </p>
-        </article>
-        <article className="benefit">
-          <img src={plan} alt="nutritions"></img>
-          <h3>Nutritions</h3>
-          <p>
-            Our team will work with you to create a personalized meal plan that
-            helps you reach your specific health goals.
-          </p>
-        </article>
+      <div className="benefits-container" id="benefits-container">
+        <div className="benefits" id="benefits">
+          <article className="benefit" id="benefit-1">
+            <img src={time} alt="progression"></img>
+            <h3>Progression</h3>
+            <p>
+              Our team of experts will work with you to create a customized plan
+              that helps you achieve success one step at a time.
+            </p>
+          </article>
+          <article className="benefit" id="benefit-2">
+            <img src={lifting} alt="workout"></img>
+            <h3>Workout</h3>
+            <p>
+              With a variety of workouts to choose from, you'll have everything
+              you need to get into the best shape of your life.
+            </p>
+          </article>
+          <article className="benefit" id="benefit-3">
+            <img src={plan} alt="nutritions"></img>
+            <h3>Nutritions</h3>
+            <p>
+              Our team will work with you to create a personalized meal plan
+              that helps you reach your specific health goals.
+            </p>
+          </article>
+        </div>
       </div>
       <div className="desc-container">
         <section className="desc">
@@ -73,7 +87,7 @@ const About = () => {
             <i className="fa-solid fa-arrow-right"></i>
           </button>
         </section>
-        <section className="banners">
+        <section className="banners" id="banners">
           <img src={running_writing} alt="writing" id="running_writing" />
           <img src={girl_running} alt="girl_running" id="girl_running" />
           <img src={semicircle} alt="semicircle" id="semicircle" />

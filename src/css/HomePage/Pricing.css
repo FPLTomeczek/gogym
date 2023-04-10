@@ -22,6 +22,12 @@
   margin-top: 2rem;
 }
 
+@media (max-width: 1200px) {
+  .plans {
+    flex-direction: column;
+  }
+}
+
 .plan-img {
   position: relative;
   filter: grayscale(100%);

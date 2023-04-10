@@ -42,7 +42,7 @@ const Navbar = ({
       <div className="sign-up">
         <i className="fa-regular fa-user"></i>
         <i
-          class="fa-solid fa-bars"
+          className="fa-solid fa-bars"
           onClick={() => {
             if (isModalOpen) {
               setIsModalClosing(true);

@@ -6,7 +6,7 @@
   align-items: center;
   position: fixed;
   z-index: 10;
-  width: 100%;
+  width: 100vw;
   box-sizing: border-box;
 }
 
@@ -18,18 +18,18 @@
   cursor: pointer;
 }
 
-ul {
+.navbar ul {
   display: flex;
   list-style-type: none;
   color: white;
   gap: 2rem;
 }
 
-li {
+.navbar li {
   cursor: pointer;
   transition: color 0.4s;
 }
-li:hover {
+.navbar li:hover {
   color: var(--main-red);
 }
 
@@ -60,4 +60,17 @@ li:hover {
 .join-class > i {
   font-size: 2rem;
   color: var(--main-red);
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    position: static;
+    background-color: black;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .join-class {
+    display: none;
+  }
 }

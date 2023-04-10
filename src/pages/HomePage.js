@@ -14,8 +14,8 @@ const HomePage = () => {
       <About />
       <Offers />
       <Coaches />
-      <Testimonials />
-      <BMICalculator />
+      {/* <Testimonials /> */}
+      {/* <BMICalculator /> */}
       <Pricing />
     </div>
   );

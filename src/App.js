@@ -34,7 +34,7 @@ function App() {
           <Route path="/schedule" element={<SchedulePage />} />
           <Route path="/blog" element={<BlogPage />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );
