@@ -134,14 +134,18 @@
   z-index: 2;
 }
 
+@media (max-width: 1300px) {
+  .banners {
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
   .benefits {
     flex-direction: column;
     align-items: center;
   }
-  .banners {
-    display: none;
-  }
+
   .ads {
     flex-direction: column;
     gap: 2rem;

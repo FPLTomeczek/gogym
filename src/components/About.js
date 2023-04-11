@@ -23,6 +23,14 @@ const About = () => {
     setContainersHeight();
   }, []);
 
+  useEffect(() => {
+    window.addEventListener("resize", setContainersHeight);
+
+    return () => {
+      window.removeEventListener("resize", setContainersHeight);
+    };
+  }, []);
+
   return (
     <div className="about-container">
       <div className="benefits-container" id="benefits-container">

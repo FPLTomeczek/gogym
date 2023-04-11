@@ -1,6 +1,7 @@
 .footer-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 4rem 0;
 }
 
@@ -42,7 +43,6 @@
 }
 
 .our-classes {
-  /* width: 30%; */
   display: flex;
   flex-direction: column;
 }
@@ -63,4 +63,16 @@
 
 .schedule > h4 {
   margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .footer-container {
+    padding: 1rem 1rem;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .footer-desc {
+    order: 3;
+    width: 80%;
+  }
 }

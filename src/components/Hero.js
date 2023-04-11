@@ -23,12 +23,14 @@ const Hero = () => {
           <i className="fa-solid fa-arrow-right"></i>
         </button>
       </div>
-      <div className="links">
-        <p>Share</p>
-        <div className="underline"></div>
-        <i className="fa-brands fa-linkedin fa-2x"></i>
-        <i className="fa-brands fa-twitter fa-2x"></i>
-        <i className="fa-brands fa-facebook fa-2x"></i>
+      <div className="links-container">
+        <div className="links">
+          <p>Share</p>
+          <div className="underline"></div>
+          <i className="fa-brands fa-linkedin fa-2x"></i>
+          <i className="fa-brands fa-twitter fa-2x"></i>
+          <i className="fa-brands fa-facebook fa-2x"></i>
+        </div>
       </div>
     </div>
   );
