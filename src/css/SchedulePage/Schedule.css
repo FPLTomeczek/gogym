@@ -5,6 +5,7 @@
 .schedule-buttons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -58,4 +59,12 @@
 
 .join-btn:hover {
   background-color: var(--main-red);
+}
+
+@media (max-width: 1200px) {
+  .session {
+    flex-direction: column;
+    width: 80%;
+    margin: 1rem auto;
+  }
 }
