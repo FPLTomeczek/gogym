@@ -116,3 +116,17 @@
 #title-bg-offers > p {
   left: 30px;
 }
+
+@media (max-width: 1200px) {
+  .offers-container > main {
+    padding: 0 2rem;
+  }
+  .activities {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .offers-container {
+    text-align: center;
+  }
+}

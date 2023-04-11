@@ -4,6 +4,7 @@
   align-items: center;
   background-image: url("../../img/about_bg.jpg");
   padding: 4rem 0;
+  text-align: center;
 }
 
 #title-bg-pricing {
@@ -18,14 +19,9 @@
 
 .plans {
   display: flex;
-  gap: 2rem;
+  gap: 10px;
   margin-top: 2rem;
-}
-
-@media (max-width: 1200px) {
-  .plans {
-    flex-direction: column;
-  }
+  width: 100%;
 }
 
 .plan-img {
@@ -105,4 +101,13 @@
 
 .plan-info > button::after {
   border: 2px solid var(--main-red);
+}
+
+@media (max-width: 1200px) {
+  .pricing-container {
+    padding: 4rem 2rem;
+  }
+  .plans {
+    flex-direction: column;
+  }
 }

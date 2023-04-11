@@ -17,10 +17,6 @@ const About = () => {
     document.getElementById("benefits-container").style.height = `${
       document.getElementById("benefits").offsetHeight
     }px`;
-
-    document.getElementById("banners").style.height = `${
-      document.getElementById("semicircle").offsetHeight
-    }px`;
   };
 
   useEffect(() => {
