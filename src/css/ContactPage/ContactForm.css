@@ -34,3 +34,9 @@
 #contact-btn:hover {
   background-color: var(--main-red);
 }
+
+@media (max-width: 1200px) {
+  .contact-form-container {
+    width: 80%;
+  }
+}

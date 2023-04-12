@@ -10,3 +10,11 @@
   gap: 2rem;
   width: 70vw;
 }
+
+@media (max-width: 1200px) {
+  .contact-container > section {
+    flex-direction: column;
+    width: 80%;
+    padding-top: 2rem;
+  }
+}

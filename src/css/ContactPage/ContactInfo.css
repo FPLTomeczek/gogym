@@ -28,3 +28,15 @@
   margin-top: 0.25rem;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 1200px) {
+  .contact-info-container {
+    width: 100%;
+  }
+  .contact-infos {
+    grid-template-columns: 1fr;
+  }
+  .contact-info {
+    padding: 1rem 0;
+  }
+}
