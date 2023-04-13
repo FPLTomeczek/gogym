@@ -21,12 +21,12 @@
   transition: all 0.4s;
 }
 .bmi-calculator > button:hover {
-  background-color: var(--main-red);
+  background-color: var(--main-color);
   color: white;
 }
 
 .bmi-calculator span {
-  color: var(--main-red);
+  color: var(--main-color);
 }
 
 .bmi-calculator > p {

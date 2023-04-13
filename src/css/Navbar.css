@@ -30,7 +30,7 @@
   transition: color 0.4s;
 }
 .navbar li:hover {
-  color: var(--main-red);
+  color: var(--main-color);
 }
 
 .sign-up {
@@ -47,7 +47,7 @@
 }
 
 .sign-up > i:hover {
-  color: var(--main-red);
+  color: var(--main-color);
 }
 
 .join-class {
@@ -59,7 +59,7 @@
 }
 .join-class > i {
   font-size: 2rem;
-  color: var(--main-red);
+  color: var(--main-color);
 }
 
 .sign-up > .fa-bars {

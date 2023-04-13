@@ -25,7 +25,7 @@
 }
 
 .category:hover {
-  color: var(--main-red);
+  color: var(--main-color);
 }
 
 .search {
@@ -54,7 +54,7 @@
 #search-blog-button {
   width: 15%;
   color: white;
-  background-color: var(--main-red);
+  background-color: var(--main-color);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   cursor: pointer;
@@ -76,5 +76,5 @@
   transition: color 0.4s;
 }
 .popular-tags > span:hover {
-  color: var(--main-red);
+  color: var(--main-color);
 }

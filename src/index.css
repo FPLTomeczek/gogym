@@ -3,7 +3,7 @@
 }
 
 :root {
-  --main-red: #ff0034;
+  --main-color: #ff0034;
   --light-gray: rgb(232, 232, 232);
   --dark-gray: rgb(161, 161, 161);
 }
@@ -77,6 +77,6 @@ ul {
 }
 
 .active {
-  background-color: var(--main-red) !important;
+  background-color: var(--main-color) !important;
   color: white !important;
 }

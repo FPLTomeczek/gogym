@@ -40,13 +40,13 @@
 }
 
 .hero-text > .btn > i {
-  color: var(--main-red);
+  color: var(--main-color);
 }
 
 .underline {
   width: 50px;
   height: 5px;
-  background-color: var(--main-red);
+  background-color: var(--main-color);
 }
 .links-container {
   display: flex;
@@ -63,7 +63,7 @@
 }
 
 .links > i:hover {
-  color: var(--main-red);
+  color: var(--main-color);
   cursor: pointer;
 }
 

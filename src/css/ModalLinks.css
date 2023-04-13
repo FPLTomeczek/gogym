@@ -55,5 +55,5 @@
   cursor: pointer;
 }
 .modal-links-item:hover {
-  color: var(--main-red);
+  color: var(--main-color);
 }

@@ -22,7 +22,7 @@
 }
 
 .schedule-buttons > button:hover {
-  background-color: var(--main-red);
+  background-color: var(--main-color);
   color: white;
 }
 .sessions {
@@ -58,7 +58,7 @@
 }
 
 .join-btn:hover {
-  background-color: var(--main-red);
+  background-color: var(--main-color);
 }
 
 @media (max-width: 1200px) {

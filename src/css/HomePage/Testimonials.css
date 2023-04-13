@@ -71,7 +71,7 @@
 
 .quote-buttons > button:hover {
   color: white;
-  background-color: var(--main-red);
+  background-color: var(--main-color);
 }
 
 @media (max-width: 1200px) {
