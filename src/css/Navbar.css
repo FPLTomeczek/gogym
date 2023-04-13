@@ -21,7 +21,6 @@
 
 .navbar ul {
   display: flex;
-  list-style-type: none;
   color: white;
   gap: 2rem;
 }
@@ -63,6 +62,10 @@
   color: var(--main-red);
 }
 
+.sign-up > .fa-bars {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .navbar {
     position: static;
@@ -73,5 +76,8 @@
   }
   .join-class {
     display: none;
+  }
+  .sign-up > .fa-bars {
+    display: block;
   }
 }

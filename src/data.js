@@ -11,6 +11,14 @@ import running from "./img/ClassesPage/running.jpg";
 import workout from "./img/ClassesPage/workout.jpg";
 import yoga from "./img/ClassesPage/yoga.jpg";
 
+export const nav_links = [
+  ["/", "Home"],
+  ["/schedule", "Schedule"],
+  ["/classes", "Classes"],
+  ["/blog", "Blog"],
+  ["/contact", "Contact"],
+];
+
 export const posts = [
   {
     img: yoga,

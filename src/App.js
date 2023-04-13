@@ -5,27 +5,39 @@ import SchedulePage from "./pages/SchedulePage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BlogPage from "./pages/BlogPage";
-import Modal from "./components/Modal";
+import MODAL_INFO from "./components/Modal_Info";
+import { Modal_Links as MODAL_LINKS } from "./components/Modal_Links";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isModalClosing, setIsModalClosing] = useState(false);
+  const [isModalInfoOpen, setIsModalInfoOpen] = useState(false);
+  const [isModalInfoClosing, setIsModalInfoClosing] = useState(false);
+
+  const [isModalLinksOpen, setIsModalLinksOpen] = useState(false);
+  const [isModalLinksClosing, setIsModalLinksClosing] = useState(false);
 
   return (
     <div className="App">
       <Router>
         <Navbar
-          isModalOpen={isModalOpen}
-          setIsModalOpen={setIsModalOpen}
-          isModalClosing={isModalClosing}
-          setIsModalClosing={setIsModalClosing}
+          isModalInfoOpen={isModalInfoOpen}
+          setIsModalInfoOpen={setIsModalInfoOpen}
+          setIsModalInfoClosing={setIsModalInfoClosing}
+          isModalLinksOpen={isModalLinksOpen}
+          setIsModalLinksOpen={setIsModalLinksOpen}
+          setIsModalLinksClosing={setIsModalLinksClosing}
         />
-        <Modal
-          isModalOpen={isModalOpen}
-          setIsModalOpen={setIsModalOpen}
-          isModalClosing={isModalClosing}
-          setIsModalClosing={setIsModalClosing}
+        <MODAL_INFO
+          isModalInfoOpen={isModalInfoOpen}
+          setIsModalInfoOpen={setIsModalInfoOpen}
+          isModalInfoClosing={isModalInfoClosing}
+          setIsModalInfoClosing={setIsModalInfoClosing}
+        />
+        <MODAL_LINKS
+          isModalLinksOpen={isModalLinksOpen}
+          setIsModalLinksOpen={setIsModalLinksOpen}
+          isModalLinksClosing={isModalLinksClosing}
+          setIsModalLinksClosing={setIsModalLinksClosing}
         />
         <Routes>
           <Route path="/" element={<HomePage />} />

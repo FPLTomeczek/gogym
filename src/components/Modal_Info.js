@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Modal.css";
+import "../css/Modal_Info.css";
 import logo from "../img/logo_black.svg";
 import activity1 from "../img/Modal/activity1.jpg";
 import activity2 from "../img/Modal/activity2.jpg";
@@ -9,16 +9,16 @@ import activity5 from "../img/Modal/activity5.jpg";
 import activity6 from "../img/Modal/activity6.jpg";
 import SocialLinks from "./SocialLinks";
 
-const Modal = ({
-  isModalOpen,
-  setIsModalOpen,
-  isModalClosing,
-  setIsModalClosing,
+const Modal_Info = ({
+  isModalInfoOpen,
+  setIsModalInfoOpen,
+  isModalInfoClosing,
+  setIsModalInfoClosing,
 }) => {
   return (
     <div
-      className={`modal ${isModalOpen ? "slideIn" : ""} ${
-        isModalClosing ? "slideOut" : ""
+      className={`modal ${isModalInfoOpen ? "slideIn" : ""} ${
+        isModalInfoClosing ? "slideOut" : ""
       }`}
     >
       <div className="modal-header">
@@ -26,8 +26,8 @@ const Modal = ({
         <i
           className="fa-solid fa-xmark"
           onClick={() => {
-            setIsModalOpen(false);
-            setIsModalClosing(true);
+            setIsModalInfoOpen(false);
+            setIsModalInfoClosing(true);
           }}
         ></i>
       </div>
@@ -72,4 +72,4 @@ const Modal = ({
   );
 };
 
-export default Modal;
+export default Modal_Info;

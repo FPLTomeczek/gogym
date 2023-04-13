@@ -2,11 +2,14 @@ import React, { useEffect, useState } from "react";
 import logo_white from "../img/logo_white.svg";
 import "../css/Navbar.css";
 import Link from "./Link.js";
+import { nav_links } from "../data";
 const Navbar = ({
-  isModalOpen,
-  setIsModalOpen,
-  isModalClosing,
-  setIsModalClosing,
+  isModalInfoOpen,
+  setIsModalInfoOpen,
+  setIsModalInfoClosing,
+  isModalLinksOpen,
+  setIsModalLinksOpen,
+  setIsModalLinksClosing,
 }) => {
   const [scrollY, setScrollY] = useState(0);
 
@@ -23,33 +26,38 @@ const Navbar = ({
         <img src={logo_white} alt="logo_white" />
       </Link>
       <ul>
-        <Link to="/">
-          <li>Home</li>
-        </Link>
-        <Link to="/schedule">
-          <li>Schedule</li>
-        </Link>
-        <Link to="/classes">
-          <li>Classes</li>
-        </Link>
-        <Link to="/blog">
-          <li>Blog</li>
-        </Link>
-        <Link to="/contact">
-          <li>Contact</li>
-        </Link>
+        {nav_links.map((link) => {
+          console.log(link);
+          return (
+            <Link to={link[0]}>
+              <li>{link[1]}</li>
+            </Link>
+          );
+        })}
       </ul>
       <div className="sign-up">
         <i className="fa-regular fa-user"></i>
         <i
           className="fa-solid fa-bars"
           onClick={() => {
-            if (isModalOpen) {
-              setIsModalClosing(true);
+            if (isModalLinksOpen) {
+              setIsModalLinksClosing(true);
             } else {
-              setIsModalClosing(false);
+              setIsModalLinksClosing(false);
             }
-            setIsModalOpen(!isModalOpen);
+            setIsModalLinksOpen(!isModalLinksOpen);
+          }}
+        ></i>
+
+        <i
+          className="fa-solid fa-circle-info"
+          onClick={() => {
+            if (isModalInfoOpen) {
+              setIsModalInfoClosing(true);
+            } else {
+              setIsModalInfoClosing(false);
+            }
+            setIsModalInfoOpen(!isModalInfoOpen);
           }}
         ></i>
         <div className="join-class">

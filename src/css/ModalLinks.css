@@ -1,0 +1,59 @@
+@keyframes slideinModalLinks {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes slideoutModalLinks {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+.slideInModalLinks {
+  animation: slideinModalLinks 1s forwards;
+}
+
+.slideOutModalLinks {
+  animation: slideoutModalLinks 1s forwards;
+}
+
+.modal-links {
+  top: 0;
+  left: -100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 100vh;
+  z-index: 10;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+}
+.modal-links > .fa-circle-xmark {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.modal-links-list {
+  text-align: center;
+  padding: 0;
+}
+.modal-links-item {
+  color: var(--dark-gray);
+  padding: 2rem 0;
+  transition: color 0.4s;
+  cursor: pointer;
+}
+.modal-links-item:hover {
+  color: var(--main-red);
+}
