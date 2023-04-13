@@ -15,9 +15,6 @@ const Footer = () => {
               program designed to help you reach your fitness goals.
             </p>
             <SocialLinks />
-            <span>
-              Privacy Policy | &copy; 2023 Gymate Design by FPLTomeczek
-            </span>
           </div>
           <div className="our-classes">
             <h3>Our Classes</h3>
